@@ -1,0 +1,25 @@
+{
+  "name": "headless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start:headless & npm run start:node",
+    "start:headless": "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --headless --remote-debugging-port=9222 --disable-gpu",
+    "test:headless": "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --headless --disable-gpu --screenshot https://www.wellingtonnz.com/",
+    "lint": "eslint src",
+    "start:diff": "nodemon src/imageDiff.js",
+    "start:init": "nodemon src/newSiteInit.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "chrome-remote-interface": "^0.23.2",
+    "csv-parse": "^1.2.0",
+    "eslint": "^4.0.0",
+    "image-diff": "^1.6.3",
+    "inquirer": "^3.1.1",
+    "nodemon": "^1.11.0"
+  }
+}
