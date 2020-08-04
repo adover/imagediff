@@ -16,7 +16,7 @@
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "chrome-remote-interface": "^0.23.2",
-    "csv-parse": "^1.2.0",
+    "csv-parse": "^4.4.6",
     "eslint": "^4.0.0",
     "image-diff": "^1.6.3",
     "inquirer": "^3.1.1",
