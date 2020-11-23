@@ -17,7 +17,7 @@
     "babel-eslint": "^7.2.3",
     "chrome-remote-interface": "^0.23.2",
     "csv-parse": "^1.2.0",
-    "eslint": "^4.0.0",
+    "eslint": "^7.14.0",
     "image-diff": "^1.6.3",
     "inquirer": "^3.1.1",
     "nodemon": "^1.11.0"
